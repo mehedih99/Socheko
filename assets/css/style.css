@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* ====================header start================== */
+.header{
+    width: 100%;
+    height: 100px;   
+    display: flex;
+}
+.header1{
+    width: 25%;
+    padding-left: 30px;
+}
+.header input[type="text"]
+{
+    font-size: 26px;
+    padding:7px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+    width: 75%;
+    margin-right: 0px;
+}
+.header input[type="button"]
+{
+    font-size: 24px;
+    margin-left: 0px;
+    padding: 7px;
+}
+.header2{
+    width: 50%;
+ 
+}
+.header3{
+    width: 20%;
+  
+    margin-top: 09px;
+
+}
+.cart {
+    padding: 7px;
+    width: 32%;
+    margin: 9px;
+    margin-left: 164px;
+    background-color:#72403A ;
+}
+.cart button{
+    font-size: 24px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: #72403A;
+    color: white;
+}
+
+/* ===================header finished============= */
+/* =================menu start================= */
+
+.menu{
+    width: 100%;
+    background-color: #01967F;
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 20px;
+    overflow: hidden;
+    margin: 10px ;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+.menu ul li:hover{
+    background-color:#216359;
+    border-radius: 20%;
+}
+/* ================menu finished============== */
+
+/* ==============products================ */
+section{
+    padding: 10px;
+    height: 320px;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+.items{
+    display:flex;
+   
+}
+.item{
+
+    border: 5px solid #F3F3F3 ;
+    height: 280px;
+    margin: 10px 5px;
+    width: 15%;
+    padding: 5px;
+    
+}
+.ppic{
+    height: 180px;
+    
+    
+
+}
+.ppic img{
+    height: 180px;
+    width: 220px;
+}
+.pinf{
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.pinf h2{
+    margin: 0px;
+}
+.pinf p{
+    font-size: 20px;
+}
+.itemstitle{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+ 
+}
+.itemstitle a{
+    text-decoration: none;
+}
+/* ================== Section1 finished ============== */
+/* ================footer start================ */
+.footer{
+    width: 100%;
+    background-color: #E4E4E4 ;
+}
